@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+	text-align: center;
+	font-size: 14px;
+}
+#header {
+	position: relative;
+	margin-bottom: 80px;
+}
+#gradient {
+	height: 200px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+#overlay {
+	position: fixed;
+	text-align: center;
+}
+#michaeltina {
+	margin-top: 7%;
+	width: 70%;
+	padding-right: 14.5%;
+	padding-left: 10%;
+}
+#whenwhere {
+	margin-top: 3%;
+	width: 23%;
+}
+#photo {
+	width: 100%;
+}
+.section {
+	margin: 0 50px 80px 50px;
+	max-width: 800px;
+	text-align: center;
+	display: inline-block;
+}
+.section-detail {
+	text-align: left;
+	width: 40%;
+	float: left;
+	margin: 50px 5% 0 5%;
+}
+h1 {
+	font-family: 'Muncie', sans-serif;
+	padding-bottom: 15px;
+	color: #666;
+	border-bottom: 1px solid #bbb;
+	font-weight: normal;
+	font-size: 2.5em;
+}
+h2 {
+	font-family: 'Muncie', sans-serif;
+	font-weight: normal;
+	font-size: 2.2em;
+	margin-top: 40px;
+	margin-bottom: .1em;
+}
+p {
+	margin-bottom: 1.4em;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+#where {
+	width: 80%;
+	height: 80%;
+}
+#when {
+	width: 70%;
+	height: 70%;
+	margin-top: 6%;
+}
+.coral {
+	color: #DF8280;
+}
+.mint {
+	color: #80CDB1;
+}
+.clear {
+	clear: both;
+}
+@media screen and (max-width: 650px) {
+	.section-detail {
+		width: 100%;
+		text-align: center;
+		margin: 50px 0 0 0;
+	}
+	p, h2 {
+		text-align: left;
+	}
+	#michaeltina {
+		width: 90%;
+		padding: 0;
+		padding-right: 8%;
+		padding-left: 2%;
+	}
+	#whenwhere {
+		width: 40%;
+	}
+	h1, h2 {
+		font-size: 1.8em;
+	}
+	#header {
+		margin-bottom: 40px;
+	}
+	.section {
+		margin: 0 20px 40px 20px;
+	}
+	#photo {
+		height: 150%;
+		width: 150%;
+		position: relative;
+		left: -23%;
+		z-index: -100;
+	}
+
+}
