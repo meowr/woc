@@ -41,6 +41,8 @@ body {
 }
 #photo {
 	width: 100%;
+	position: relative;
+	z-index: -100;
 }
 .section {
 	margin: 0 50px 80px 50px;
@@ -98,7 +100,7 @@ a:hover {
 .clear {
 	clear: both;
 }
-@media screen and (max-width: 650px) {
+@media (max-width: 650px) {
 	.section-detail {
 		width: 100%;
 		text-align: center;
