@@ -190,7 +190,6 @@ input[type="radio"] {
 .accept, .decline {
 	margin-top: 7px;
 	font-family: 'Open+Sans+Condensed', sans-serif;
-	text-transform: uppercase;
 	font-weight: 300;
 	font-size: 1.1em;
 }
@@ -281,10 +280,10 @@ input[type="radio"] {
 	}
 	.ss-q-title {
 		padding-top: 30px;
-		font-size: .9em;
+		font-size: 1.1em;
 	}
 	.accept, .decline {
-		font-size: 1em;
+		font-size: 1.1em;
 	}
 	.ss-secondary-text {
 		font-size: .8em;
