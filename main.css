@@ -255,14 +255,37 @@ input[type="radio"] {
 	#whenwhere {
 		width: 40%;
 	}
-	h1, h2 {
-		font-size: 1.8em;
+	h1, h2, .button {
+		font-size: 1.2em;
 	}
 	#header {
 		margin-bottom: 40px;
 	}
 	.section {
 		margin: 0 20px 40px 20px;
+	}
+	#modal {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		left: 0;
+		top: 0;
+	}
+	.short {
+		position: static;
+		width: 100%;
+	}
+	.ss-q-title {
+		padding-top: 30px;
+		font-size: .9em;
+	}
+	.ss-secondary-text {
+		font-size: .8em;
+	}
+	.ss-choices {
+		margin: 0;
+		position: relative;
+		top: -5px;
 	}
 	#photo {
 		height: 150%;
