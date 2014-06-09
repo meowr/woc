@@ -52,7 +52,7 @@
   <div class="section">
     <button class="button" onclick="document.getElementById('modal').style.visibility='visible'; document.getElementById('fade').style.visibility='visible';$('body').css('overflow', 'hidden')">RSVP</button>
   </div>
-  <div id="fade"></div>
+  <div id="fade" onclick="document.getElementById('modal').style.visibility='hidden'; document.getElementById('fade').style.visibility='hidden';$('body').css('overflow', 'auto')"></div>
   <div id="modal">
     <a id="close" onclick="document.getElementById('modal').style.visibility='hidden'; document.getElementById('fade').style.visibility='hidden';$('body').css('overflow', 'auto')">X</a>
     <div class="contents">

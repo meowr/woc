@@ -244,6 +244,7 @@ input[type="radio"] {
     width: 100%;
     height: 100%;
     z-index: 90; 
+    cursor: pointer;
 }
 .contents {
 	margin-top: 5%;
