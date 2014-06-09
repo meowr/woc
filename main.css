@@ -55,19 +55,20 @@ body {
 	float: left;
 	margin: 50px 5% 0 5%;
 }
+.single .section-detail {
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
 h1 {
-	font-family: 'Open+Sans+Condensed', sans-serif;
+	font-family: 'Poiret One', sans-serif;
 	text-transform: uppercase;
 	padding-bottom: 18px;
 	color: #666;
 	border-bottom: 1px solid #bbb;
-	font-weight: 300;
 	font-size: 1.5em;
 }
 h2 {
-	font-family: 'Open+Sans+Condensed', sans-serif;
-	text-transform: uppercase;
-	font-weight: 300;
+	font-family: 'Poiret One', sans-serif;
 	font-size: 1.4em;
 	margin-top: 40px;
 	margin-bottom: .4em;
@@ -76,6 +77,8 @@ p {
 	margin-bottom: 1.4em;
 }
 a {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 1.2em;
 	text-decoration: none;
 }
 a:hover {
@@ -90,6 +93,14 @@ a:hover {
 	height: 70%;
 	margin-top: 6%;
 }
+#registry {
+	width: 95%;
+	height: 95%;
+	margin-top: 12%;
+}
+.single {
+	margin: 0 50px 50px 50px;
+}
 .window {
 	text-align: center;
 }
@@ -101,9 +112,8 @@ ul {
 }
 .ss-q-title {
 	opacity: .7;
-	font-family: 'Open+Sans+Condensed', sans-serif;
+	font-family: 'Poiret One', sans-serif;
 	text-transform: uppercase;
-	font-weight: 300;
 	font-size: 1.1em;
 	padding-top: 40px;
 	margin-bottom: 3px;
@@ -135,7 +145,7 @@ textarea {
 }
 .ss-choices {
 	margin-left: 65px;
-	margin-top: 2px;
+	margin-top: 19px;
 	width: 100%
 }
 .short {
@@ -154,10 +164,9 @@ textarea {
 .button {
 	padding: 14px 40px 12px 40px;
 	background-color: #DF8280;
-	font-family: 'Open+Sans+Condensed', sans-serif;
+	font-family: 'Poiret One', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	font-weight: 300;
 	font-size: 1.4em;
 	border: none;
 	border-bottom: 2px solid #C8706E;
@@ -189,8 +198,7 @@ input[type="radio"] {
 }
 .accept, .decline {
 	margin-top: 7px;
-	font-family: 'Open+Sans+Condensed', sans-serif;
-	font-weight: 300;
+	font-family: 'Poiret One', sans-serif;
 	font-size: 1.1em;
 }
 .clear {
@@ -266,6 +274,12 @@ input[type="radio"] {
 	}
 	.section {
 		margin: 0 20px 40px 20px;
+	}
+	.single .section-detail {
+		margin: 20px 0 -20px 0;
+	}
+	.single {
+		margin: 0 20px 60px 20px;
 	}
 	#modal {
 		width: 100%;
