@@ -11,6 +11,7 @@ body {
 #header {
 	position: relative;
 	margin-bottom: 80px;
+	overflow: hidden;
 }
 #gradient {
 	height: 200px;
@@ -26,7 +27,7 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
 #overlay {
-	position: fixed;
+	position: absolute;
 	text-align: center;
 }
 #michaeltina {
